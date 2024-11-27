@@ -9,11 +9,46 @@
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
-		"moduleResolution": "bundler"
+		"moduleResolution": "bundler",
+
+		// https://www.typescriptlang.org/tsconfig#isolatedModules
+		// the isolatedModules flag tells TypeScript to warn you if you write certain code that can’t be correctly interpreted by a single-file transpilation process.
+		"isolatedModules": true,
+
+		// https://www.typescriptlang.org/tsconfig#downlevelIteration
+		// This flag is to enable support for a more accurate implementation of how modern JavaScript iterates through new concepts in older JavaScript runtimes.
+		"downlevelIteration": true,
+
+		// https://www.typescriptlang.org/tsconfig#importHelpers
+		// If the importHelpers flag is on, these helper functions are instead imported from the tslib module.
+		"importHelpers": true,
+
+		// https://www.typescriptlang.org/tsconfig#allowUnreachableCode
+		// raises compiler errors about unreachable code
+		"allowUnreachableCode": false,
+
+		// https://www.typescriptlang.org/tsconfig#noImplicitReturns
+		// When enabled, TypeScript will check all code paths in a function to ensure they return a value.
+		"noImplicitReturns": true,
+
+		// https://www.typescriptlang.org/tsconfig#noUncheckedIndexedAccess
+		// accessing a property defined with an indexed signature will add undefined to its type
+		"noUncheckedIndexedAccess": true,
+
+		// https://www.typescriptlang.org/tsconfig#noUnusedLocals
+		// Report errors on unused local variables.
+		"noUnusedLocals": true,
+
+		// https://www.typescriptlang.org/tsconfig#noUnusedParameters
+		// Report errors on unused parameters in functions
+		"noUnusedParameters": true,
+
+		// https://www.typescriptlang.org/tsconfig#noImplicitOverride
+		// ensures that the sub-classes never go out of sync, by ensuring that functions which override include the keyword override.
+		"noImplicitOverride": true,
+
+		// https://www.typescriptlang.org/tsconfig#strictFunctionTypes
+		// When enabled, this flag causes functions parameters to be checked more correctly.
+		"strictFunctionTypes": true
 	}
-	// Path aliases are handled by https://svelte.dev/docs/kit/configuration#alias
-	// except $lib which is handled by https://svelte.dev/docs/kit/configuration#files
-	//
-	// If you want to overwrite includes/excludes, make sure to copy over the relevant includes/excludes
-	// from the referenced tsconfig.json - TypeScript does not merge them in
 }
