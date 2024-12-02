@@ -3,11 +3,11 @@
 @import 'tailwindcss/utilities';
 
 ul {
-	@apply pl-4;
+	@apply pl-2 md:pl-4;
 }
 
 li {
-	@apply my-1.5;
+	@apply my-2;
 	list-style: '·  ';
 }
 

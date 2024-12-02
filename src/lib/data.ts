@@ -36,7 +36,7 @@ const experiences = [
     },
     {
         period: "2020",
-        job: "Développeur Fullstack Senior",
+        job: "Développeur Senior",
         company: "Foodologic",
         logo: "foodologic.webp",
         tools: ["Svelte", "Typescript", "NodeJs", "Express", "MongoDB"]
@@ -53,19 +53,19 @@ const experiences = [
 const projects = [
     {
         year: 2024,
-        description: `Site <a href="https://www.veilleecologique.fr/">↗&nbsp;Veille écologique.fr</a> (14'000 📃)`
+        description: `Site <a target="_blank" href="https://www.veilleecologique.fr/">↗&nbsp;Veille écologique.fr</a> (14'000 📃)`
     },
     {
         year: 2023,
-        description: `Librairie <a href="https://github.com/Ennoriel/svelte-reveal.js">↗&nbsp;svelte-reveal.js</a>`
+        description: `Librairie <a target="_blank" href="https://github.com/Ennoriel/svelte-reveal.js">↗&nbsp;svelte-reveal.js</a>`
     },
     {
         year: 2022,
-        description: `Serveur <a href="https://discord.gg/N3UTWGt7">↗&nbsp;Discord Svelte Francophone</a>`
+        description: `Serveur <a target="_blank" href="https://discord.gg/N3UTWGt7">↗&nbsp;Discord Svelte Francophone</a>`
     },
     {
         year: 2021,
-        description: `Librairie <a href="https://github.com/Ennoriel/svelte-awesome-color-picker">↗&nbsp;svelte-awesome-color-picker</a> (135 ⭐)`
+        description: `Librairie <a target="_blank" href="https://github.com/Ennoriel/svelte-awesome-color-picker">↗&nbsp;svelte-awesome-color-picker</a> (135 ⭐)`
     }
 ];
 
