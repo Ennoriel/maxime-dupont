@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { accordion } from '$lib/animation.utils';
 	import { data } from '$lib/data';
+	import { slide } from 'svelte/transition';
 
 	let seeMore = $state(false);
 </script>
@@ -32,19 +32,27 @@
 	{/each}
 </ul>
 
-<ul class="-mt-2 mb-4" use:accordion={seeMore} aria-hidden={seeMore ? 'false' : 'true'}>
-	{#each data.furtherProjects as project}
-		<li>
-			<div class="flex items-end justify-between">
-				<div>
-					{project.year} - {project.name}
-					{#if project.repo}<a target="_blank" href={project.repo}>↗&nbsp;repo</a>{/if}
-					{#if project.app}<a target="_blank" href={project.app}>↗&nbsp;app</a>{/if}
-				</div>
-			</div>
-		</li>
-	{/each}
-</ul>
+{#if seeMore}
+	<div transition:slide={{ duration: 800 }}>
+		<h2 class="mb-8 pt-8 font-semibold">D'autres projets</h2>
+
+		<ul>
+			{#each data.furtherProjects as project}
+				<li>
+					<div class="flex items-end justify-between">
+						<div>
+							{project.year} - {project.name}
+							{#if project.repo}<a target="_blank" href={project.repo}>↗&nbsp;repo</a
+								>{/if}
+							{#if project.app}<a target="_blank" href={project.app}>↗&nbsp;app</a
+								>{/if}
+						</div>
+					</div>
+				</li>
+			{/each}
+		</ul>
+	</div>
+{/if}
 
 {#if seeMore}
 	<button onclick={() => (seeMore = false)}>Voir moins</button>
@@ -64,7 +72,7 @@
 				{/if}
 			</div>
 			<div>
-				{@html talk.title}
+				{talk.title}
 			</div>
 		</li>
 	{/each}
