@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { data } from '$lib/data';
+	import { experiences, projects, furtherProjects, talks } from '$lib/data';
 	import { slide } from 'svelte/transition';
 
 	let seeMore = $state(false);
@@ -10,7 +10,7 @@
 <h2 class="my-8 font-semibold">Expériences</h2>
 
 <ul>
-	{#each data.experiences as experience}
+	{#each experiences as experience}
 		<li>
 			<div class="flex items-center justify-between">
 				<div>
@@ -27,7 +27,7 @@
 <h2 class="my-8 font-semibold">Projets</h2>
 
 <ul>
-	{#each data.projects as project}
+	{#each projects as project}
 		<li>{project.year} - {@html project.description}</li>
 	{/each}
 </ul>
@@ -37,7 +37,7 @@
 		<h2 class="mb-8 pt-8 font-semibold">D'autres projets</h2>
 
 		<ul>
-			{#each data.furtherProjects as project}
+			{#each furtherProjects as project}
 				<li>
 					<div class="flex items-end justify-between">
 						<div>
@@ -63,7 +63,7 @@
 <h2 class="my-8 font-semibold">Conférences</h2>
 
 <ul>
-	{#each data.talks as talk}
+	{#each talks as talk}
 		<li>
 			<div>
 				{talk.year} - <i>{talk.event}</i>
@@ -76,4 +76,12 @@
 			</div>
 		</li>
 	{/each}
+</ul>
+
+<h2 class="my-8 font-semibold">Contact</h2>
+
+<ul>
+	<li>Maxime Dupont</li>
+	<li>Tèl : <a href="tel:+33660048709">06 60 04 87 09</a></li>
+	<li>Email : <a href="mailto:m.dupont103@gmail.com">m.dupont103@gmail.com</a></li>
 </ul>

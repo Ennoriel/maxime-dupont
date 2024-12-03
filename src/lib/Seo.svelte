@@ -46,7 +46,7 @@
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
 		<meta property="og:image" content="{PUBLIC_BASE_URL}/{image}" />
-		<meta property="og:locale" content="en_GB" />
+		<meta property="og:locale" content="fr" />
 
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image" />

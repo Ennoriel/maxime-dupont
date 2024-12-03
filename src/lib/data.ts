@@ -1,4 +1,4 @@
-const experiences = [
+export const experiences = [
 	{
 		period: '2025',
 		job: 'Développeur Front Senior',
@@ -58,7 +58,7 @@ const experiences = [
 	}
 ];
 
-const projects = [
+export const projects = [
 	{
 		year: 2024,
 		description: `Site <a target="_blank" href="https://www.veilleecologique.fr/">↗&nbsp;Veille écologique.fr</a> (14'000 📃)`
@@ -77,7 +77,7 @@ const projects = [
 	}
 ];
 
-const furtherProjects = [
+export const furtherProjects = [
 	{
 		year: 2024,
 		name: 'librairie ts de scraping',
@@ -134,7 +134,7 @@ const furtherProjects = [
 	}
 ];
 
-const talks = [
+export const talks = [
 	{
 		year: 2024,
 		event: 'Breizh Camp',
@@ -168,10 +168,3 @@ const talks = [
 		}
 	}
 ];
-
-export const data = {
-	experiences,
-	projects,
-	furtherProjects,
-	talks
-};
