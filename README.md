@@ -1,8 +1,4 @@
-## libraries
-
-- prettier
-- eslint
-- vitest
-- playwright
-- tailwindcss
-- mdsvex
+- youtube
+- app
+- github
+- doc

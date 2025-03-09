@@ -1,4 +1,5 @@
 <script lang="ts">
+	import LinkIcon from '$lib/components/LinkIcon.svelte';
 	import { experiences, projects, furtherProjects, talks } from '$lib/data';
 	import { slide } from 'svelte/transition';
 
@@ -26,28 +27,42 @@
 
 <h2 class="my-8 font-semibold">Projets</h2>
 
-<ul>
-	<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+<ul class="mb-2">
 	{#each projects as project}
-		<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-		<li>{project.year} - {@html project.description}</li>
+		<li>
+			<div class="flex items-center justify-between">
+				<div>
+					{project.year} - {project.description}
+				</div>
+				<div class="flex gap-2">
+					{#each project.links as link}
+						<LinkIcon {...link} />
+					{/each}
+				</div>
+			</div>
+		</li>
 	{/each}
 </ul>
 
+{#if !seeMore}
+	<button onclick={() => (seeMore = true)} class="cursor-pointer">Voir plus</button>
+{/if}
+
 {#if seeMore}
 	<div transition:slide={{ duration: 800 }}>
-		<h2 class="mb-8 pt-8 font-semibold">D'autres projets</h2>
+		<h2 class="mb-8 pt-8 font-semibold">Autres projets</h2>
 
 		<ul>
 			{#each furtherProjects as project}
 				<li>
-					<div class="flex items-end justify-between">
+					<div class="flex items-center justify-between pl-12 -indent-12">
 						<div>
-							{project.year} - {project.name}
-							{#if project.repo}<a target="_blank" href={project.repo}>↗&nbsp;repo</a
-								>{/if}
-							{#if project.app}<a target="_blank" href={project.app}>↗&nbsp;app</a
-								>{/if}
+							{project.year} - {project.description}
+						</div>
+						<div class="flex shrink-0 gap-1.5">
+							{#each project.links as link}
+								<LinkIcon {...link} />
+							{/each}
 						</div>
 					</div>
 				</li>
@@ -57,9 +72,7 @@
 {/if}
 
 {#if seeMore}
-	<button onclick={() => (seeMore = false)}>Voir moins</button>
-{:else}
-	<button onclick={() => (seeMore = true)}>Voir plus</button>
+	<button onclick={() => (seeMore = false)} class="cursor-pointer">Voir moins</button>
 {/if}
 
 <h2 class="my-8 font-semibold">Conférences</h2>
@@ -67,14 +80,15 @@
 <ul>
 	{#each talks as talk}
 		<li>
-			<div>
-				{talk.year} - <i>{talk.event}</i>
-				{#if talk.link}
-					<a target="_blank" href={talk.link.src}>↗&nbsp;{talk.link.text}</a>
-				{/if}
-			</div>
-			<div>
-				{talk.title}
+			<div class="flex items-center justify-between pl-12 -indent-12">
+				<div>
+					{talk.year} - {talk.title} <i class="whitespace-nowrap">{talk.event}</i>
+				</div>
+				<div class="flex shrink-0 gap-1.5">
+					{#each talk.links as link}
+						<LinkIcon {...link} />
+					{/each}
+				</div>
 			</div>
 		</li>
 	{/each}
@@ -84,6 +98,5 @@
 
 <ul>
 	<li>Maxime Dupont</li>
-	<li>Tèl : <a href="tel:+33660048709">06 60 04 87 09</a></li>
 	<li>Email : <a href="mailto:m.dupont103@gmail.com">m.dupont103@gmail.com</a></li>
 </ul>

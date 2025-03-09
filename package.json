@@ -1,6 +1,8 @@
 {
 	"name": "maxime-dupont",
 	"version": "0.0.1",
+	"homepage": "https://www.maximedupont.fr/",
+	"author": "Maxime Dupont <m.dupont103@gmail.com>",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev --open --host",

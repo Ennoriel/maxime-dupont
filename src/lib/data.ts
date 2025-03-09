@@ -2,7 +2,7 @@ export const experiences = [
 	{
 		period: '2025',
 		job: 'Développeur Front Senior',
-		company: 'OVHCloud',
+		company: 'OVHcloud',
 		logo: 'ovh-cloud.webp',
 		tools: ['ReactJs']
 	},
@@ -61,110 +61,235 @@ export const experiences = [
 export const projects = [
 	{
 		year: 2024,
-		description: `Site <a target="_blank" href="https://www.veilleecologique.fr/">↗&nbsp;Veille écologique.fr</a> (14'000 📃)`
+		description: `Site Veille Écologique.fr (25'000 📃)`,
+		links: [
+			{
+				href: 'https://www.veilleecologique.fr/',
+				src: '/arrow.svg',
+				alt: 'veille écologique . fr'
+			}
+		]
 	},
 	{
 		year: 2023,
-		description: `Librairie <a target="_blank" href="https://github.com/Ennoriel/svelte-reveal.js">↗&nbsp;svelte-reveal.js</a>`
+		description: `Librairie svelte-reveal.js`,
+		links: [
+			{
+				href: 'https://github.com/Ennoriel/svelte-reveal.js',
+				src: '/github.svg',
+				alt: 'dépôt Github'
+			}
+		]
 	},
 	{
 		year: 2022,
-		description: `Serveur <a target="_blank" href="https://discord.gg/N3UTWGt7">↗&nbsp;Discord Svelte Francophone</a>`
+		description: `Serveur discord Svelte francophone`,
+		links: [
+			{
+				href: 'https://discord.gg/N3UTWGt7',
+				src: '/arrow.svg',
+				alt: "lien d'invitation discord"
+			}
+		]
 	},
 	{
 		year: 2021,
-		description: `Librairie <a target="_blank" href="https://github.com/Ennoriel/svelte-awesome-color-picker">↗&nbsp;svelte-awesome-color-picker</a> (135 ⭐)`
+		description: `Librairie svelte-awesome-color-picker (140 ⭐)`,
+		links: [
+			{
+				href: 'https://svelte-awesome-color-picker.vercel.app/',
+				src: '/scroll.svg',
+				alt: 'documentation'
+			},
+			{
+				href: 'https://github.com/Ennoriel/svelte-awesome-color-picker',
+				src: '/github.svg',
+				alt: 'dépôt Github'
+			}
+		]
 	}
 ];
 
 export const furtherProjects = [
 	{
 		year: 2024,
-		name: 'librairie ts de scraping',
-		repo: 'https://github.com/Ennoriel/chymy'
+		description: 'Librairie chymy (scraping)',
+		links: [
+			{
+				href: 'https://github.com/Ennoriel/chymy',
+				src: '/github.svg',
+				alt: 'dépôt Github'
+			}
+		]
 	},
 	{
 		year: 2023,
-		name: 'Dataviz de Hacker News',
-		app: 'https://y-combinator-news-trends.vercel.app/'
+		description: 'Scrapping et dataviz de Hacker News',
+		links: [
+			{
+				href: 'https://y-combinator-news-trends.vercel.app/',
+				src: '/arrow.svg',
+				alt: 'application'
+			}
+		]
 	},
 	{
 		year: 2023,
-		name: 'Librairie de slider personnalisable en Svelte',
-		repo: 'https://github.com/Ennoriel/svelte-awesome-slider',
-		app: 'https://svelte-awesome-slider.vercel.app/'
+		description: 'Librairie svelte-awesome-slider',
+		links: [
+			{
+				href: 'https://svelte-awesome-slider.vercel.app/',
+				src: '/scroll.svg',
+				alt: 'documentation'
+			},
+			{
+				href: 'https://github.com/Ennoriel/svelte-awesome-slider',
+				src: '/github.svg',
+				alt: 'dépôt Github'
+			}
+		]
 	},
 	{
 		year: 2022,
-		name: "Librairie d'affichage de liens de réseaux sociaux (Facebook, Instagram, etc.)",
-		repo: 'https://github.com/Ennoriel/social-links',
-		app: 'https://share-links-site.vercel.app/'
+		description: 'Librairie {svelte|react}-social-links',
+		links: [
+			{
+				href: 'https://social-links-doc.vercel.app/',
+				src: '/scroll.svg',
+				alt: 'documentation'
+			},
+			{
+				href: 'https://github.com/Ennoriel/social-links',
+				src: '/github.svg',
+				alt: 'dépôt Github'
+			}
+		]
 	},
 	{
 		year: 2021,
-		name: 'librairie ts de calcul de force de mot de passe (mainteneur)',
-		repo: 'https://github.com/Ennoriel/check-password-strength'
+		description: 'Librairie check-password-strength (mainteneur)',
+		links: [
+			{
+				href: 'https://github.com/deanilvincent/check-password-strength',
+				src: '/github.svg',
+				alt: 'dépôt Github'
+			}
+		]
 	},
 	{
 		year: 2021,
-		name: 'Projet de dataviz des amendements pour la député Paula Caterino',
-		repo: 'https://github.com/Ennoriel/data-viz-amendements'
+		description: 'Dataviz des amendements pour la député Paula Caterino',
+		links: [
+			{
+				href: 'https://github.com/Ennoriel/data-viz-amendements',
+				src: '/github.svg',
+				alt: 'dépôt Github'
+			}
+		]
 	},
 	{
 		year: 2021,
-		name: 'moteur de recherche des émoji unicode',
-		repo: 'https://github.com/Ennoriel/unicode-emoji-search-engine',
-		app: 'https://ennoriel.github.io/unicode-emoji-search-engine/'
+		description: 'Moteur de recherche des émoji unicode',
+		links: [
+			{
+				href: 'https://ennoriel.github.io/unicode-emoji-search-engine/',
+				src: '/arrow.svg',
+				alt: 'application'
+			},
+			{
+				href: 'https://github.com/Ennoriel/unicode-emoji-search-engine',
+				src: '/github.svg',
+				alt: 'dépôt Github'
+			}
+		]
 	},
 	{
 		year: 2021,
-		name: "librairie d'utilitaires ts",
-		repo: 'https://github.com/Ennoriel/chyme'
+		description: 'Librairie chyme (utilitaires typescript)',
+		links: [
+			{
+				href: 'https://github.com/Ennoriel/chyme',
+				src: '/github.svg',
+				alt: 'dépôt Github'
+			}
+		]
 	},
 	{
 		year: 2020,
-		name: 'Application pour concevoir des motifs de bracelet ou broche en perle',
-		repo: 'https://github.com/Ennoriel/bead-pattern',
-		app: 'https://ennoriel.github.io/bead-pattern/'
+		description: 'Application de conception de motifs de bracelet et broche en perle',
+		links: [
+			{
+				href: 'https://ennoriel.github.io/bead-pattern/',
+				src: '/arrow.svg',
+				alt: 'application'
+			},
+			{
+				href: 'https://github.com/Ennoriel/bead-pattern',
+				src: '/github.svg',
+				alt: 'dépôt Github'
+			}
+		]
 	},
 	{
 		year: 2019,
-		name: 'Coding dojo java pour construire son noeud de blockchain',
-		repo: 'https://github.com/Ennoriel/blockchain-demo'
+		description: 'Coding dojo : construire son noeud de blockchain',
+		links: [
+			{
+				href: 'https://github.com/Ennoriel/blockchain-demo',
+				src: '/github.svg',
+				alt: 'dépôt Github'
+			}
+		]
 	}
 ];
 
 export const talks = [
 	{
+		year: 2025,
+		event: 'Nuit des communautés',
+		title: "Arrêtez d'écoconcevoir vos services numériques !",
+		links: []
+	},
+	{
 		year: 2024,
 		event: 'Breizh Camp',
 		title: 'Comment faire une bonne campagne de Green Washing Solutioniste ?',
-		link: {
-			text: 'replay youtube',
-			src: 'https://www.youtube.com/watch?v=mhM4PvZDQUE'
-		}
+		links: [
+			{
+				href: 'https://www.youtube.com/watch?v=mhM4PvZDQUE',
+				src: '/youtube.svg',
+				alt: 'replay youtube'
+			}
+		]
 	},
 	{
 		year: 2024,
 		event: 'INSA Rennes',
-		title: 'L’effet rebond du numérique sur l’environnement'
+		title: 'L’effet rebond du numérique sur l’environnement,',
+		links: []
 	},
 	{
 		year: 2023,
 		event: 'Breizh Camp',
-		title: "Workshop : SvelteKit à l'attaque des dinosaures",
-		link: {
-			text: 'replay youtube',
-			src: 'https://www.youtube.com/watch?v=COXZ78AJVns'
-		}
+		title: "Workshop : SvelteKit à l'attaque des dinosaures,",
+		links: [
+			{
+				href: 'https://www.youtube.com/watch?v=COXZ78AJVns',
+				src: '/youtube.svg',
+				alt: 'replay youtube'
+			}
+		]
 	},
 	{
 		year: 2023,
 		event: 'Bdx.io',
-		title: 'Workshop : Pokedex avec SvelteKit',
-		link: {
-			text: 'repository',
-			src: 'https://github.com/sveltefr/kit-demo'
-		}
+		title: 'Workshop : Pokedex avec SvelteKit,',
+		links: [
+			{
+				href: 'https://github.com/sveltefr/kit-demo',
+				src: '/github.svg',
+				alt: 'dépôt Github'
+			}
+		]
 	}
 ];
