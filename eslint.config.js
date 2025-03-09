@@ -59,8 +59,10 @@ export default ts.config(
 			],
 			// https://eslint.org/docs/latest/rules/no-control-regex
 			// allows to write new RegExp("\t") which is normally only possible with /\t/
-			'no-control-regex': 0
-		}
+			'no-control-regex': 0,
+			// do not require to add key to each block
+			'svelte/require-each-key': 'off'
+		},
 	},
 	{
 		ignores: ['build/', '.svelte-kit/', 'dist/']

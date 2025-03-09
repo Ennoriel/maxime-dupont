@@ -27,7 +27,9 @@
 <h2 class="my-8 font-semibold">Projets</h2>
 
 <ul>
+	<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 	{#each projects as project}
+		<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 		<li>{project.year} - {@html project.description}</li>
 	{/each}
 </ul>
