@@ -81,7 +81,7 @@
 	{#each talks as talk}
 		<li>
 			<div class="flex items-center justify-between pl-12 -indent-12">
-				<div>
+				<div class="leading-[22px]">
 					{talk.year} - {talk.title} <i class="whitespace-nowrap">{talk.event}</i>
 				</div>
 				<div class="flex shrink-0 gap-1.5">

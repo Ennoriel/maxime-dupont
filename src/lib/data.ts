@@ -65,7 +65,7 @@ export const projects = [
 		links: [
 			{
 				href: 'https://www.veilleecologique.fr/',
-				src: '/arrow.svg',
+				src: '/icons/arrow.svg',
 				alt: 'veille écologique . fr'
 			}
 		]
@@ -76,7 +76,7 @@ export const projects = [
 		links: [
 			{
 				href: 'https://github.com/Ennoriel/svelte-reveal.js',
-				src: '/github.svg',
+				src: '/icons/github.svg',
 				alt: 'dépôt Github'
 			}
 		]
@@ -87,7 +87,7 @@ export const projects = [
 		links: [
 			{
 				href: 'https://discord.gg/N3UTWGt7',
-				src: '/arrow.svg',
+				src: '/icons/arrow.svg',
 				alt: "lien d'invitation discord"
 			}
 		]
@@ -98,12 +98,12 @@ export const projects = [
 		links: [
 			{
 				href: 'https://svelte-awesome-color-picker.vercel.app/',
-				src: '/scroll.svg',
+				src: '/icons/scroll.svg',
 				alt: 'documentation'
 			},
 			{
 				href: 'https://github.com/Ennoriel/svelte-awesome-color-picker',
-				src: '/github.svg',
+				src: '/icons/github.svg',
 				alt: 'dépôt Github'
 			}
 		]
@@ -117,7 +117,7 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://github.com/Ennoriel/chymy',
-				src: '/github.svg',
+				src: '/icons/github.svg',
 				alt: 'dépôt Github'
 			}
 		]
@@ -128,7 +128,7 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://y-combinator-news-trends.vercel.app/',
-				src: '/arrow.svg',
+				src: '/icons/arrow.svg',
 				alt: 'application'
 			}
 		]
@@ -139,12 +139,12 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://svelte-awesome-slider.vercel.app/',
-				src: '/scroll.svg',
+				src: '/icons/scroll.svg',
 				alt: 'documentation'
 			},
 			{
 				href: 'https://github.com/Ennoriel/svelte-awesome-slider',
-				src: '/github.svg',
+				src: '/icons/github.svg',
 				alt: 'dépôt Github'
 			}
 		]
@@ -155,12 +155,12 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://social-links-doc.vercel.app/',
-				src: '/scroll.svg',
+				src: '/icons/scroll.svg',
 				alt: 'documentation'
 			},
 			{
 				href: 'https://github.com/Ennoriel/social-links',
-				src: '/github.svg',
+				src: '/icons/github.svg',
 				alt: 'dépôt Github'
 			}
 		]
@@ -171,7 +171,7 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://github.com/deanilvincent/check-password-strength',
-				src: '/github.svg',
+				src: '/icons/github.svg',
 				alt: 'dépôt Github'
 			}
 		]
@@ -182,7 +182,7 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://github.com/Ennoriel/data-viz-amendements',
-				src: '/github.svg',
+				src: '/icons/github.svg',
 				alt: 'dépôt Github'
 			}
 		]
@@ -193,12 +193,12 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://ennoriel.github.io/unicode-emoji-search-engine/',
-				src: '/arrow.svg',
+				src: '/icons/arrow.svg',
 				alt: 'application'
 			},
 			{
 				href: 'https://github.com/Ennoriel/unicode-emoji-search-engine',
-				src: '/github.svg',
+				src: '/icons/github.svg',
 				alt: 'dépôt Github'
 			}
 		]
@@ -209,7 +209,7 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://github.com/Ennoriel/chyme',
-				src: '/github.svg',
+				src: '/icons/github.svg',
 				alt: 'dépôt Github'
 			}
 		]
@@ -220,12 +220,12 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://ennoriel.github.io/bead-pattern/',
-				src: '/arrow.svg',
+				src: '/icons/arrow.svg',
 				alt: 'application'
 			},
 			{
 				href: 'https://github.com/Ennoriel/bead-pattern',
-				src: '/github.svg',
+				src: '/icons/github.svg',
 				alt: 'dépôt Github'
 			}
 		]
@@ -236,7 +236,7 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://github.com/Ennoriel/blockchain-demo',
-				src: '/github.svg',
+				src: '/icons/github.svg',
 				alt: 'dépôt Github'
 			}
 		]
@@ -248,7 +248,13 @@ export const talks = [
 		year: 2025,
 		event: 'Nuit des communautés',
 		title: "Arrêtez d'écoconcevoir vos services numériques !",
-		links: []
+		links: [
+			{
+				href: '/conference/arretez-d-ecoconcevoir-vos-services-numeriques',
+				src: '/icons/presentation.svg',
+				alt: 'slides'
+			}
+		]
 	},
 	{
 		year: 2024,
@@ -257,7 +263,7 @@ export const talks = [
 		links: [
 			{
 				href: 'https://www.youtube.com/watch?v=mhM4PvZDQUE',
-				src: '/youtube.svg',
+				src: '/icons/youtube.svg',
 				alt: 'replay youtube'
 			}
 		]
@@ -275,7 +281,7 @@ export const talks = [
 		links: [
 			{
 				href: 'https://www.youtube.com/watch?v=COXZ78AJVns',
-				src: '/youtube.svg',
+				src: '/icons/youtube.svg',
 				alt: 'replay youtube'
 			}
 		]
@@ -287,7 +293,7 @@ export const talks = [
 		links: [
 			{
 				href: 'https://github.com/sveltefr/kit-demo',
-				src: '/github.svg',
+				src: '/icons/github.svg',
 				alt: 'dépôt Github'
 			}
 		]
