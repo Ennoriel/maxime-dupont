@@ -99,12 +99,12 @@
 
 <h2 class="my-8 font-semibold">Contact</h2>
 
-<ul>
+<ul class="contact">
 	<li>Maxime Dupont</li>
 	<li>
 		<div class="flex">
 			<Email role="image" aria-label="Email" width="18" height="18" />
-			<a class="flex" href="mailto:m.dupont103@gmail.com"> m.dupont103@gmail.com </a>
+			<a href="mailto:m.dupont103@gmail.com"> m.dupont103@gmail.com </a>
 		</div>
 	</li>
 	<li>
@@ -121,14 +121,14 @@
 </ul>
 
 <style>
-	.flex {
+	.contact .flex {
 		display: inline-flex;
 		align-items: center;
 		gap: 8px;
 		vertical-align: top;
 	}
 
-	.flex :global(svg) {
+	.contact .flex :global(svg) {
 		color: #62748e;
 	}
 </style>
