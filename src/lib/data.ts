@@ -3,35 +3,30 @@ export const experiences = [
 		period: '2025',
 		job: 'Développeur Front Senior',
 		company: 'OVHcloud',
-		logo: 'ovh-cloud.webp',
 		tools: ['ReactJs']
 	},
 	{
 		period: '2023',
 		job: 'Lead dev Full-stack',
 		company: 'Alcyconie',
-		logo: 'alcyconie.webp',
 		tools: ['Svelte', 'Typescript', 'PostgreSQL', 'Playwright', 'Scaleway']
 	},
 	{
 		period: '2023',
 		job: 'Développeur Front Senior',
 		company: 'SlowLettuce',
-		logo: 'slowlettuce.svg',
 		tools: ['Svelte', 'Typescript', 'TailwindCss', 'Netlify']
 	},
 	{
 		period: '2022',
 		job: 'Co-fondateur / CTO',
 		company: 'Trouve Ton Sport',
-		logo: 'trouvetonsport.svg',
 		tools: ['Svelte', 'Typescript', 'MongoDB', 'Scaleway']
 	},
 	{
 		period: '2021',
 		job: 'Tech Lead Front',
 		company: 'Jamespot',
-		logo: 'jamespot.webp',
 		tools: [
 			'ReactJs',
 			'Redux Toolkit',
@@ -46,14 +41,12 @@ export const experiences = [
 		period: '2020',
 		job: 'Développeur Senior',
 		company: 'Foodologic',
-		logo: 'foodologic.webp',
 		tools: ['Svelte', 'Typescript', 'NodeJs', 'Express', 'MongoDB']
 	},
 	{
 		period: '2017',
 		job: 'Développeur Fullstack',
 		company: 'Sopra Steria',
-		logo: 'soprasteria.webp',
 		tools: ['Java 7', 'Angular 4+', 'Typescript', 'Oracle SQL', 'Jenkins']
 	}
 ];
@@ -65,7 +58,7 @@ export const projects = [
 		links: [
 			{
 				href: 'https://www.veilleecologique.fr/',
-				src: '/icons/arrow.svg',
+				src: 'arrow',
 				alt: 'veille écologique . fr'
 			}
 		]
@@ -76,7 +69,7 @@ export const projects = [
 		links: [
 			{
 				href: 'https://github.com/Ennoriel/svelte-reveal.js',
-				src: '/icons/github.svg',
+				src: 'github',
 				alt: 'dépôt Github'
 			}
 		]
@@ -87,7 +80,7 @@ export const projects = [
 		links: [
 			{
 				href: 'https://discord.gg/N3UTWGt7',
-				src: '/icons/arrow.svg',
+				src: 'arrow',
 				alt: "lien d'invitation discord"
 			}
 		]
@@ -98,12 +91,12 @@ export const projects = [
 		links: [
 			{
 				href: 'https://svelte-awesome-color-picker.vercel.app/',
-				src: '/icons/scroll.svg',
+				src: 'scroll',
 				alt: 'documentation'
 			},
 			{
 				href: 'https://github.com/Ennoriel/svelte-awesome-color-picker',
-				src: '/icons/github.svg',
+				src: 'github',
 				alt: 'dépôt Github'
 			}
 		]
@@ -117,7 +110,7 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://github.com/Ennoriel/chymy',
-				src: '/icons/github.svg',
+				src: 'github',
 				alt: 'dépôt Github'
 			}
 		]
@@ -128,7 +121,7 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://y-combinator-news-trends.vercel.app/',
-				src: '/icons/arrow.svg',
+				src: 'arrow',
 				alt: 'application'
 			}
 		]
@@ -139,12 +132,12 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://svelte-awesome-slider.vercel.app/',
-				src: '/icons/scroll.svg',
+				src: 'scroll',
 				alt: 'documentation'
 			},
 			{
 				href: 'https://github.com/Ennoriel/svelte-awesome-slider',
-				src: '/icons/github.svg',
+				src: 'github',
 				alt: 'dépôt Github'
 			}
 		]
@@ -155,12 +148,12 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://social-links-doc.vercel.app/',
-				src: '/icons/scroll.svg',
+				src: 'scroll',
 				alt: 'documentation'
 			},
 			{
 				href: 'https://github.com/Ennoriel/social-links',
-				src: '/icons/github.svg',
+				src: 'github',
 				alt: 'dépôt Github'
 			}
 		]
@@ -171,7 +164,7 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://github.com/deanilvincent/check-password-strength',
-				src: '/icons/github.svg',
+				src: 'github',
 				alt: 'dépôt Github'
 			}
 		]
@@ -182,7 +175,7 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://github.com/Ennoriel/data-viz-amendements',
-				src: '/icons/github.svg',
+				src: 'github',
 				alt: 'dépôt Github'
 			}
 		]
@@ -193,12 +186,12 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://ennoriel.github.io/unicode-emoji-search-engine/',
-				src: '/icons/arrow.svg',
+				src: 'arrow',
 				alt: 'application'
 			},
 			{
 				href: 'https://github.com/Ennoriel/unicode-emoji-search-engine',
-				src: '/icons/github.svg',
+				src: 'github',
 				alt: 'dépôt Github'
 			}
 		]
@@ -209,7 +202,7 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://github.com/Ennoriel/chyme',
-				src: '/icons/github.svg',
+				src: 'github',
 				alt: 'dépôt Github'
 			}
 		]
@@ -220,12 +213,12 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://ennoriel.github.io/bead-pattern/',
-				src: '/icons/arrow.svg',
+				src: 'arrow',
 				alt: 'application'
 			},
 			{
 				href: 'https://github.com/Ennoriel/bead-pattern',
-				src: '/icons/github.svg',
+				src: 'github',
 				alt: 'dépôt Github'
 			}
 		]
@@ -236,7 +229,7 @@ export const furtherProjects = [
 		links: [
 			{
 				href: 'https://github.com/Ennoriel/blockchain-demo',
-				src: '/icons/github.svg',
+				src: 'github',
 				alt: 'dépôt Github'
 			}
 		]
@@ -251,7 +244,7 @@ export const talks = [
 		links: [
 			{
 				href: '/conference/arretez-d-ecoconcevoir-vos-services-numeriques',
-				src: '/icons/presentation.svg',
+				src: 'presentation',
 				alt: 'slides'
 			}
 		]
@@ -263,7 +256,7 @@ export const talks = [
 		links: [
 			{
 				href: 'https://www.youtube.com/watch?v=mhM4PvZDQUE',
-				src: '/icons/youtube.svg',
+				src: 'youtube',
 				alt: 'replay youtube'
 			}
 		]
@@ -281,7 +274,7 @@ export const talks = [
 		links: [
 			{
 				href: 'https://www.youtube.com/watch?v=COXZ78AJVns',
-				src: '/icons/youtube.svg',
+				src: 'youtube',
 				alt: 'replay youtube'
 			}
 		]
@@ -293,7 +286,7 @@ export const talks = [
 		links: [
 			{
 				href: 'https://github.com/sveltefr/kit-demo',
-				src: '/icons/github.svg',
+				src: 'github',
 				alt: 'dépôt Github'
 			}
 		]

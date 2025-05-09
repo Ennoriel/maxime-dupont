@@ -1,6 +1,9 @@
 <script lang="ts">
 	import LinkIcon from '$lib/components/LinkIcon.svelte';
 	import { experiences, projects, furtherProjects, talks } from '$lib/data';
+	import Email from '$lib/icons/Email.svelte';
+	import Github from '$lib/icons/Github.svelte';
+	import Linkedin from '$lib/icons/Linkedin.svelte';
 	import { slide } from 'svelte/transition';
 
 	let seeMore = $state(false);
@@ -100,15 +103,16 @@
 	<li>Maxime Dupont</li>
 	<li>
 		<div class="flex">
-			<img src="/icons/email.svg" alt="" width="18" height="18" />
+			<Email role="image" aria-label="Email" width="18" height="18" />
 			<a class="flex" href="mailto:m.dupont103@gmail.com"> m.dupont103@gmail.com </a>
 		</div>
 	</li>
 	<li>
 		<div class="flex">
-			<img src="/icons/github.svg" alt="" width="18" height="18" />
-			<a href="https://github.com/ennoriel/" aria-label="Profil Github"> Github </a>
-			· <img src="/icons/linkedin.svg" alt="" width="18" height="18" />
+			<Github role="image" aria-label="Profil Github" width="18" height="18" />
+			<a href="https://github.com/ennoriel/"> Github </a>
+			·
+			<Linkedin role="image" aria-label="Profil LinkedIn" width="18" height="18" />
 			<a href="https://www.linkedin.com/in/maxime-dupont-dev/" aria-label="Profil LinkedIn">
 				LinkedIn
 			</a>
@@ -119,7 +123,12 @@
 <style>
 	.flex {
 		display: inline-flex;
+		align-items: center;
 		gap: 8px;
 		vertical-align: top;
+	}
+
+	.flex :global(svg) {
+		color: #62748e;
 	}
 </style>
