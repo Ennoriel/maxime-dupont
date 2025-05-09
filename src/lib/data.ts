@@ -61,7 +61,7 @@ export const experiences = [
 export const projects = [
 	{
 		year: 2024,
-		description: `Site Veille Écologique.fr (25'000 📃)`,
+		description: `Site Veille Écologique.fr (33'000 📃)`,
 		links: [
 			{
 				href: 'https://www.veilleecologique.fr/',
@@ -94,7 +94,7 @@ export const projects = [
 	},
 	{
 		year: 2021,
-		description: `Librairie svelte-awesome-color-picker (140 ⭐)`,
+		description: `Librairie svelte-awesome-color-picker (150 ⭐)`,
 		links: [
 			{
 				href: 'https://svelte-awesome-color-picker.vercel.app/',
