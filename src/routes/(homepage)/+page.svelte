@@ -98,5 +98,28 @@
 
 <ul>
 	<li>Maxime Dupont</li>
-	<li>Email : <a href="mailto:m.dupont103@gmail.com">m.dupont103@gmail.com</a></li>
+	<li>
+		<div class="flex">
+			<img src="/icons/email.svg" alt="" width="18" height="18" />
+			<a class="flex" href="mailto:m.dupont103@gmail.com"> m.dupont103@gmail.com </a>
+		</div>
+	</li>
+	<li>
+		<div class="flex">
+			<img src="/icons/github.svg" alt="" width="18" height="18" />
+			<a href="https://github.com/ennoriel/" aria-label="Profil Github"> Github </a>
+			· <img src="/icons/linkedin.svg" alt="" width="18" height="18" />
+			<a href="https://www.linkedin.com/in/maxime-dupont-dev/" aria-label="Profil LinkedIn">
+				LinkedIn
+			</a>
+		</div>
+	</li>
 </ul>
+
+<style>
+	.flex {
+		display: inline-flex;
+		gap: 8px;
+		vertical-align: top;
+	}
+</style>
