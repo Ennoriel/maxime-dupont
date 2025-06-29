@@ -5,7 +5,7 @@ ul {
 }
 
 li {
-	@apply my-2;
+	@apply py-1;
 	list-style: '·  ';
 }
 

@@ -4,12 +4,17 @@
 	import Email from '$lib/icons/Email.svelte';
 	import Github from '$lib/icons/Github.svelte';
 	import Linkedin from '$lib/icons/Linkedin.svelte';
-	import { slide } from 'svelte/transition';
+	import { fade, slide } from 'svelte/transition';
 
 	let seeMore = $state(false);
 </script>
 
-<h1 class="my-16">Maxime Dupont 🦩</h1>
+<h1 class="mt-16 mb-4 text-center">
+	<span class="queer">🦩</span>
+	Maxime Dupont 🦩
+</h1>
+
+<p class="mb-16 text-center">full-stack · écologie · accessibilité · craft</p>
 
 <h2 class="my-8 font-semibold">Expériences</h2>
 
@@ -30,7 +35,7 @@
 
 <h2 class="my-8 font-semibold">Projets</h2>
 
-<ul class="mb-2">
+<ul class="pb-8">
 	{#each projects as project}
 		<li>
 			<div class="flex items-center justify-between">
@@ -47,13 +52,22 @@
 	{/each}
 </ul>
 
-{#if !seeMore}
-	<button onclick={() => (seeMore = true)} class="cursor-pointer">Voir plus</button>
-{/if}
+<div class="relative">
+	{#if !seeMore}
+		<button
+			class="absolute -mt-6 cursor-pointer hover:underline"
+			onclick={() => (seeMore = true)}
+			in:fade={{ duration: 400, delay: 800 }}
+			out:fade={{ duration: 400 }}
+		>
+			Voir plus
+		</button>
+	{/if}
+</div>
 
 {#if seeMore}
-	<div transition:slide={{ duration: 800 }}>
-		<h2 class="mb-8 pt-8 font-semibold">Autres projets</h2>
+	<div transition:slide={{ duration: 1200 }}>
+		<h2 class="mb-8 font-semibold">Autres projets</h2>
 
 		<ul>
 			{#each furtherProjects as project}
@@ -75,7 +89,9 @@
 {/if}
 
 {#if seeMore}
-	<button onclick={() => (seeMore = false)} class="cursor-pointer">Voir moins</button>
+	<button onclick={() => (seeMore = false)} class="cursor-pointer pt-2 hover:underline">
+		Voir moins
+	</button>
 {/if}
 
 <h2 class="my-8 font-semibold">Conférences</h2>
@@ -121,6 +137,11 @@
 </ul>
 
 <style>
+	.queer {
+		display: inline-block;
+		transform: scale(-1, 1);
+	}
+
 	.contact .flex {
 		display: inline-flex;
 		align-items: center;

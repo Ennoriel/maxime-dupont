@@ -12,7 +12,7 @@
 	const Icon = $derived(Icons[src]);
 </script>
 
-<a {href}>
+<a {href} target="_blank">
 	<Icon role="img" aria-label={alt} width="18" height="18" />
 </a>
 

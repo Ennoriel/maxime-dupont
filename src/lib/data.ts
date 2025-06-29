@@ -53,8 +53,19 @@ export const experiences = [
 
 export const projects = [
 	{
+		year: 2025,
+		description: `Organisateur du BreizhCamp`,
+		links: [
+			{
+				href: 'https://www.breizhcamp.org/',
+				src: 'arrow',
+				alt: 'site du breizhcamp'
+			}
+		]
+	},
+	{
 		year: 2024,
-		description: `Site Veille Écologique.fr (33'000 📃)`,
+		description: `Site Veille Écologique.fr (40'000 📃)`,
 		links: [
 			{
 				href: 'https://www.veilleecologique.fr/',
@@ -79,7 +90,7 @@ export const projects = [
 		description: `Serveur discord Svelte francophone`,
 		links: [
 			{
-				href: 'https://discord.gg/N3UTWGt7',
+				href: 'https://discord.gg/cJZUCUxMYZ',
 				src: 'arrow',
 				alt: "lien d'invitation discord"
 			}
@@ -87,7 +98,7 @@ export const projects = [
 	},
 	{
 		year: 2021,
-		description: `Librairie svelte-awesome-color-picker (150 ⭐)`,
+		description: `Librairie svelte-awesome-color-picker (160 ⭐)`,
 		links: [
 			{
 				href: 'https://svelte-awesome-color-picker.vercel.app/',
