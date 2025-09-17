@@ -250,6 +250,18 @@ export const furtherProjects = [
 export const talks = [
 	{
 		year: 2025,
+		event: 'Meetup Software Crafters Rennes',
+		title: 'Les Do-Nothing Scripts : une nouvelle approche pour les procédures manuelles',
+		links: [
+			{
+				href: '/conference/les-do-nothing-scripts',
+				src: 'presentation',
+				alt: 'slides'
+			}
+		]
+	},
+	{
+		year: 2025,
 		event: 'Nuit des communautés',
 		title: "Arrêtez d'écoconcevoir vos services numériques !",
 		links: [

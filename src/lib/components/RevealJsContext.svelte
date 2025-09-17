@@ -1,5 +1,13 @@
 <script lang="ts">
-	import { black, notes, RevealJsContext, SvelteRevealHMR } from 'svelte-reveal.js';
+	import {
+		highlight,
+		notes,
+		RevealJsContext,
+		SvelteRevealHMR,
+		white,
+		zenburn
+	} from 'svelte-reveal.js';
+	export const ubd = () => import('$lib/components/theme.css');
 
 	let { children } = $props();
 </script>
@@ -8,11 +16,10 @@
 	options={{
 		controls: true,
 		progress: true,
-		center: true,
 		hash: true
 	}}
-	themes={[black]}
-	plugins={[notes]}
+	themes={[white, zenburn, ubd]}
+	plugins={[notes, highlight]}
 >
 	<!-- use SvelteRevealHMR in dev to enable hot module reloading -->
 	<SvelteRevealHMR />
