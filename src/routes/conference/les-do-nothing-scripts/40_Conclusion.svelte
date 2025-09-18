@@ -14,7 +14,7 @@
 				<a
 					href="https://blog.danslimmon.com/2019/07/15/do-nothing-scripting-the-key-to-gradual-automation/"
 				>
-					article de Da Slimmon
+					article de Dan Slimmon
 				</a>
 			</li>
 			<li>
@@ -28,9 +28,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="https://news.ycombinator.com/item?id=42976698">
-					2025 Y Combinator news comment
-				</a>
+				<a href="https://maximedupont.fr"> https://maximedupont.fr </a>
 			</li>
 		</ul>
 	</Slide>

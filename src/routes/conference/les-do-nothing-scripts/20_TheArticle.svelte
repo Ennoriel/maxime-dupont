@@ -37,7 +37,7 @@
 	</Slide>
 	<Slide>
 		<img
-			src="https://www.kindpng.com/picc/m/430-4307479_transparent-pika-png-sticker-memes-png-png-download.png"
+			src="/conference/do-nothing-script/pika-surprised.png"
 			alt="very surprised pikachu"
 			style="height:40vh;"
 		/>
