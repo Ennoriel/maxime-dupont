@@ -78,8 +78,9 @@
 				</a>
 			</li>
 			<li class="fragment">
-				<a href="https://tools.o14.ai/do-nothing.html">générateur de do nothing script...</a
-				>
+				<a href="https://tools.o14.ai/do-nothing.html">
+					générateur de do nothing script IA...
+				</a>
 			</li>
 		</ul>
 		<Notes>

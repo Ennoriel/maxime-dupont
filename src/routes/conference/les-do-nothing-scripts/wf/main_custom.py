@@ -1,3 +1,7 @@
+# run this script: `python3 ./main_custom.py`
+# you need a workflow folder with workflows inside. Please see ./workflow/example.md for inspiration
+# workflow should have a h1 title (#). Each step is defined by a h2 title (##) and a description
+
 import datetime
 import glob
 import os

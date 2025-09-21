@@ -28,6 +28,11 @@
 				</a>
 			</li>
 			<li>
+				<a href="https://news.ycombinator.com/item?id=42976698">
+					2025 Y Combinator news comment
+				</a>
+			</li>
+			<li>
 				<a href="https://maximedupont.fr"> https://maximedupont.fr </a>
 			</li>
 		</ul>

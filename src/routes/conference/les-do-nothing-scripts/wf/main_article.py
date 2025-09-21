@@ -1,3 +1,6 @@
+# This script is copied from https://blog.danslimmon.com/2019/07/15/do-nothing-scripting-the-key-to-gradual-automation/
+# It is not working, missing raw_input implementation
+
 import sys
  
 def wait_for_enter():

@@ -65,7 +65,7 @@ export const projects = [
 	},
 	{
 		year: 2024,
-		description: `Site Veille Écologique.fr (40'000 📃)`,
+		description: `Site Veille Écologique.fr (48'000 📃)`,
 		links: [
 			{
 				href: 'https://www.veilleecologique.fr/',
@@ -131,9 +131,9 @@ export const furtherProjects = [
 		description: 'Scrapping et dataviz de Hacker News',
 		links: [
 			{
-				href: 'https://y-combinator-news-trends.vercel.app/',
-				src: 'arrow',
-				alt: 'application'
+				href: 'https://github.com/Ennoriel/y-combinator-news-trends',
+				src: 'github',
+				alt: 'dépôt Github'
 			}
 		]
 	},
