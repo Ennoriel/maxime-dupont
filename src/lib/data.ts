@@ -257,6 +257,11 @@ export const talks = [
 				href: '/conference/les-do-nothing-scripts',
 				src: 'presentation',
 				alt: 'slides'
+			},
+			{
+				href: 'https://www.youtube.com/watch?v=XDdhBXUcT5s',
+				src: 'youtube',
+				alt: 'replay youtube'
 			}
 		]
 	},
