@@ -1,56 +1,3 @@
-export const experiences = [
-	{
-		period: '2025',
-		job: 'Développeur Front Senior',
-		company: 'OVHcloud',
-		tools: ['ReactJs']
-	},
-	{
-		period: '2023',
-		job: 'Lead dev Full-stack',
-		company: 'Alcyconie',
-		tools: ['Svelte', 'Typescript', 'PostgreSQL', 'Playwright', 'Scaleway']
-	},
-	{
-		period: '2023',
-		job: 'Développeur Front Senior',
-		company: 'SlowLettuce',
-		tools: ['Svelte', 'Typescript', 'TailwindCss', 'Netlify']
-	},
-	{
-		period: '2022',
-		job: 'Co-fondateur / CTO',
-		company: 'Trouve Ton Sport',
-		tools: ['Svelte', 'Typescript', 'MongoDB', 'Scaleway']
-	},
-	{
-		period: '2021',
-		job: 'Tech Lead Front',
-		company: 'Jamespot',
-		tools: [
-			'ReactJs',
-			'Redux Toolkit',
-			'Typescript',
-			'NodeJs',
-			'MySQL',
-			'Cypress',
-			'Kunernetes'
-		]
-	},
-	{
-		period: '2020',
-		job: 'Développeur Senior',
-		company: 'Foodologic',
-		tools: ['Svelte', 'Typescript', 'NodeJs', 'Express', 'MongoDB']
-	},
-	{
-		period: '2017',
-		job: 'Développeur Fullstack',
-		company: 'Sopra Steria',
-		tools: ['Java 7', 'Angular 4+', 'Typescript', 'Oracle SQL', 'Jenkins']
-	}
-];
-
 export const projects = [
 	{
 		year: 2025,
@@ -98,7 +45,7 @@ export const projects = [
 	},
 	{
 		year: 2021,
-		description: `Librairie svelte-awesome-color-picker (160 ⭐)`,
+		description: `Librairie svelte-awesome-color-picker (180 ⭐)`,
 		links: [
 			{
 				href: 'https://svelte-awesome-color-picker.vercel.app/',
@@ -115,6 +62,50 @@ export const projects = [
 ];
 
 export const furtherProjects = [
+	{
+		year: 2026,
+		description: `Refonte du site du BreizhCamp`,
+		links: [
+			{
+				href: 'https://www.breizhcamp.org/',
+				src: 'arrow',
+				alt: 'site du BreizhCamp'
+			}
+		]
+	},
+	{
+		year: 2025,
+		description: `Co-trésorier d'Alternatiba Rennes`,
+		links: [
+			{
+				href: 'https://rennes.alternatiba.eu/',
+				src: 'arrow',
+				alt: "site d'Alternatiba Rennes"
+			}
+		]
+	},
+	{
+		year: 2025,
+		description: `Membre du Conseil de développement de Rennes métropole`,
+		links: [
+			{
+				href: 'https://www.codev-metropolerennes.bzh/',
+				src: 'arrow',
+				alt: 'site du CODEV de Rennes métropole'
+			}
+		]
+	},
+	{
+		year: 2025,
+		description: `Membre de l'Assemblée citoyenne de Rennes métropole`,
+		links: [
+			{
+				href: 'https://fabriquecitoyenne.fr/project/assemblee-citoyenne/presentation/presentation',
+				src: 'arrow',
+				alt: "site de l'assemblée citoyenne de Rennes métropole"
+			}
+		]
+	},
 	{
 		year: 2024,
 		description: 'Librairie chymy (scraping)',
@@ -246,6 +237,7 @@ export const furtherProjects = [
 		]
 	}
 ];
+<<<<<<< HEAD:src/lib/data.ts
 
 export const talks = [
 	{
@@ -332,3 +324,5 @@ export const talks = [
 		]
 	}
 ];
+=======
+>>>>>>> 469542d (feat: add interests):src/lib/data/projects.ts

@@ -1,6 +1,9 @@
 <script lang="ts">
 	import LinkIcon from '$lib/components/LinkIcon.svelte';
-	import { experiences, projects, furtherProjects, talks } from '$lib/data';
+	import { experiences } from '$lib/data/experiences';
+	import { interests } from '$lib/data/interests';
+	import { furtherProjects, projects } from '$lib/data/projects';
+	import { talks } from '$lib/data/talks';
 	import Email from '$lib/icons/Email.svelte';
 	import Github from '$lib/icons/Github.svelte';
 	import Linkedin from '$lib/icons/Linkedin.svelte';
@@ -109,6 +112,21 @@
 					{/each}
 				</div>
 			</div>
+		</li>
+	{/each}
+</ul>
+
+<h2 class="my-8 font-semibold">Centres d'intérêt</h2>
+
+<ul>
+	{#each interests as interest}
+		<li>
+			<strong class="font-semibold">{interest.label}</strong><br />
+			{#each interest.entries as entry, index}
+				{#if index},&nbsp;
+				{/if}<span aria-hidden="true">{entry.emoji}</span>
+				{entry.label}
+			{/each}
 		</li>
 	{/each}
 </ul>
