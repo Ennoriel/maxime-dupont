@@ -250,6 +250,18 @@ export const furtherProjects = [
 export const talks = [
 	{
 		year: 2025,
+		event: '',
+		title: "Dans les entrailles d'une supply chain attack : REX de Shai-Hulud 2.0 et enseignements",
+		links: [
+			{
+				href: '/conference/supply-chain-attack',
+				src: 'presentation',
+				alt: 'slides'
+			}
+		]
+	},
+	{
+		year: 2025,
 		event: 'Meetup Software Crafters Rennes',
 		title: 'Les Do-Nothing Scripts : une nouvelle approche pour les procédures manuelles',
 		links: [

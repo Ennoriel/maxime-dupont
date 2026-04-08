@@ -1,0 +1,16 @@
+h1 {
+	font-size: 1.2em !important;
+}
+
+h2 {
+	font-size: 1em !important;
+	margin-top: 1em !important;
+}
+
+p, ul, ol, blockquote {
+	font-size: 0.75em !important;
+}
+
+table {
+	font-size: 0.65em !important;
+}
