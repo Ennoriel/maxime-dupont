@@ -25,8 +25,4 @@
 		max-height: calc(80vh / var(--slide-scale)) !important;
 		margin-inline: auto !important;
 	}
-
-	:global(.reveal .slides) {
-		border: 1px solid green;
-	}
 </style>

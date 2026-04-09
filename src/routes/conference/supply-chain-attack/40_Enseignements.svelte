@@ -1,5 +1,5 @@
 <script>
-	import { Slide } from 'svelte-reveal.js';
+	import { Notes, Slide } from 'svelte-reveal.js';
 </script>
 
 <Slide>
@@ -25,10 +25,16 @@
 		<div class="fragment">
 			<h2>Veille technique</h2>
 			<p>Veillez ! → <a href="https://news.ycombinator.com/">Hacker news</a></p>
+		</div>
+		<div class="fragment">
+			<h2>Tooling</h2>
+			<p>Analyse de vulnérabilité sur la CI, Dépendabot, Artifactory, ...</p>
+		</div>
+		<Notes>
 			<ul>
 				<li>site de partage social de liens (centré sur la Californie)</li>
 				<li>veille multi-sujets</li>
 			</ul>
-		</div>
+		</Notes>
 	</Slide>
 </Slide>

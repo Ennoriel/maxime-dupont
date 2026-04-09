@@ -7,7 +7,10 @@ h2 {
 	margin-top: 1em !important;
 }
 
-p, ul, ol, blockquote {
+p,
+ul,
+ol,
+blockquote {
 	font-size: 0.75em !important;
 }
 
