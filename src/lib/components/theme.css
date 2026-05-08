@@ -1681,13 +1681,6 @@ kbd {
 	margin-top: 0px;
 	margin-bottom: 8px;
 }
-.reveal
-	.quarto-title-block
-	.quarto-title-authors
-	.quarto-title-author
-	.quarto-title-affiliation:first {
-	margin-top: 12px;
-}
 .reveal a {
 	line-height: 1.5em;
 	font-size: 100%;

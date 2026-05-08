@@ -105,8 +105,8 @@ npm install --ignore-scripts           # Par installation`;
 		</p>
 		<pre><code class="yaml">{npmrcConfig}</code></pre>
 		<blockquote>
-			Les 796 paquets compromis ont été publiés et détectés en <strong>48h</strong> — un délai
-			de 3 jours les aurait tous bloqués.
+			Les 796 paquets compromis ont été publiés et détectés en <strong>48h</strong> — un délai de
+			3 jours les aurait tous bloqués.
 		</blockquote>
 		<table>
 			<thead>

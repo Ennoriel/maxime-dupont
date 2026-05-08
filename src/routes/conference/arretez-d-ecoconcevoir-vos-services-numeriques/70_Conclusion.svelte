@@ -1,4 +1,5 @@
 <script>
+	import { resolve } from '$app/paths';
 	import { Slide } from 'svelte-reveal.js';
 </script>
 
@@ -16,7 +17,7 @@
 	<h1>Merci</h1>
 	<br />
 	<p>
-		<a href="/" data-sveltekit-reload>maximedupont.fr</a> -
+		<a href={resolve('/')} data-sveltekit-reload>maximedupont.fr</a> -
 		<a href="mailto:m.dupont103@gmail.com">m.dupont103@gmail.com</a>
 	</p>
 </Slide>

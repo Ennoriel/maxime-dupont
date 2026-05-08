@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import { Icons } from '$lib/icons';
 
 	interface Props {
@@ -12,7 +13,8 @@
 	const Icon = $derived(Icons[src]);
 </script>
 
-<a {href} target="_blank">
+<!-- eslint-disable svelte/no-navigation-without-resolve @typescript-eslint/no-explicit-any -->
+<a href={href.startsWith('/') ? resolve(href as any) : href} target="_blank">
 	<Icon role="img" aria-label={alt} width="18" height="18" />
 </a>
 
