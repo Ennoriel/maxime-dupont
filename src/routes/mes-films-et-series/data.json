@@ -1,0 +1,295 @@
+[
+	{
+		"title": "Akira",
+		"format": "anime",
+		"director": "Katsuhiro Ōtomo",
+		"releasePeriod": "1988",
+		"platform": "Toho",
+		"themes": ["cyberpunk", "pouvoir", "science-fiction", "violence", "mutation"]
+	},
+	{
+		"title": "AlRawabi: School for Girls",
+		"format": "series",
+		"director": "Tima Shomali",
+		"releasePeriod": "2021–2024",
+		"platform": "Netflix",
+		"themes": ["harcèlement", "adolescence", "vengeance", "pression sociale", "féminité"]
+	},
+	{
+		"title": "Bridgerton",
+		"format": "series",
+		"director": "Chris Van Dusen",
+		"releasePeriod": "2020–présent",
+		"platform": "Netflix",
+		"themes": ["romance", "société", "famille", "pouvoir", "désir"]
+	},
+	{
+		"title": "Call Me by Your Name",
+		"format": "movie",
+		"director": "Luca Guadagnino",
+		"releasePeriod": "2017",
+		"platform": "Cinéma",
+		"themes": ["amour", "identité sexuelle", "désir", "jeunesse", "passage à l'âge adulte"]
+	},
+	{
+		"title": "Close",
+		"format": "movie",
+		"director": "Lukas Dhont",
+		"releasePeriod": "2022",
+		"platform": "Cinéma",
+		"themes": ["amitié", "adolescence", "identité", "deuil", "masculinité"]
+	},
+	{
+		"title": "Death Note",
+		"format": "anime",
+		"director": "Tetsurō Araki",
+		"releasePeriod": "2006–2007",
+		"platform": "Nippon TV",
+		"themes": ["justice", "pouvoir", "morale", "psychologie", "crime"]
+	},
+	{
+		"title": "Dragons",
+		"format": "animatedMovie",
+		"director": "Chris Sanders et Dean DeBlois",
+		"releasePeriod": "2010–2019",
+		"platform": "DreamWorks",
+		"themes": ["amitié", "acceptation", "aventure", "dragons", "famille"]
+	},
+	{
+		"title": "Dune",
+		"format": "movie",
+		"director": "Denis Villeneuve",
+		"releasePeriod": "2021",
+		"platform": "Cinéma",
+		"themes": ["politique", "destin", "écologie", "science-fiction", "pouvoir"]
+	},
+	{
+		"title": "Game of Thrones",
+		"format": "series",
+		"director": "David Benioff et D. B. Weiss",
+		"releasePeriod": "2011–2019",
+		"platform": "HBO",
+		"themes": ["pouvoir", "guerre", "fantasy", "famille", "trahison"]
+	},
+	{
+		"title": "Heartstopper",
+		"format": "series",
+		"director": "Euros Lyn",
+		"releasePeriod": "2022–présent",
+		"platform": "Netflix",
+		"themes": ["amour", "identité sexuelle", "adolescence", "acceptation", "amitié"]
+	},
+	{
+		"title": "How to Sell Drugs Online (Fast)",
+		"format": "series",
+		"director": "Philipp Käßbohrer et Matthias Murmann",
+		"releasePeriod": "2019–2021",
+		"platform": "Netflix",
+		"themes": ["internet", "adolescence", "criminalité", "amitié", "technologie"]
+	},
+	{
+		"title": "Inception",
+		"format": "movie",
+		"director": "Christopher Nolan",
+		"releasePeriod": "2010",
+		"platform": "Cinéma",
+		"themes": ["rêves", "réalité", "culpabilité", "science-fiction", "mémoire"]
+	},
+	{
+		"title": "Intouchables",
+		"format": "movie",
+		"director": "Olivier Nakache et Éric Toledano",
+		"releasePeriod": "2011",
+		"platform": "Cinéma",
+		"themes": ["amitié", "handicap", "différences sociales", "humour", "humanité"]
+	},
+	{
+		"title": "Jusqu'à l'aube",
+		"format": "movie",
+		"director": "Shō Miyake",
+		"releasePeriod": "2024",
+		"platform": "Cinéma",
+		"themes": [
+			"amitié",
+			"différences sociales",
+			"humanité",
+			"solitude",
+			"syndrome prémenstruel",
+			"trouble panique"
+		]
+	},
+	{
+		"title": "Kung Fu Panda 🐼",
+		"format": "animatedMovie",
+		"director": "Mark Osborne et John Stevenson",
+		"releasePeriod": "2008–présent",
+		"platform": "DreamWorks",
+		"themes": ["dépassement de soi", "arts martiaux", "humour", "destin", "confiance en soi"]
+	},
+	{
+		"title": "L'Âge de glace",
+		"format": "animatedMovie",
+		"director": "Chris Wedge",
+		"releasePeriod": "2002–présent",
+		"platform": "Blue Sky Studios",
+		"themes": ["famille", "survie", "amitié", "humour", "aventure"]
+	},
+	{
+		"title": "La haut",
+		"format": "animatedMovie",
+		"director": "Pete Docter",
+		"releasePeriod": "2009",
+		"platform": "Pixar",
+		"themes": ["deuil", "aventure", "vieillesse", "amitié", "rêves"]
+	},
+	{
+		"title": "La ligne verte",
+		"format": "movie",
+		"director": "Frank Darabont",
+		"releasePeriod": "1999",
+		"platform": "Cinéma",
+		"themes": ["justice", "mort", "humanité", "miracle", "prison"]
+	},
+	{
+		"title": "Le Cercle des poètes disparus",
+		"format": "movie",
+		"director": "Peter Weir",
+		"releasePeriod": "1989",
+		"platform": "Cinéma",
+		"themes": ["éducation", "liberté", "poésie", "conformisme", "jeunesse"]
+	},
+	{
+		"title": "Le Discours d'un roi",
+		"format": "movie",
+		"director": "Tom Hooper",
+		"releasePeriod": "2010",
+		"platform": "Cinéma",
+		"themes": ["bégaiement", "royauté", "dépassement de soi", "amitié", "leadership"]
+	},
+	{
+		"title": "Le Fabuleux Destin d'Amélie Poulain",
+		"format": "movie",
+		"director": "Jean-Pierre Jeunet",
+		"releasePeriod": "2001",
+		"platform": "Cinéma",
+		"themes": ["solitude", "amour", "poésie du quotidien", "entraide", "imagination"]
+	},
+	{
+		"title": "Le Jeu de la dame",
+		"format": "series",
+		"director": "Scott Frank",
+		"releasePeriod": "2020",
+		"platform": "Netflix",
+		"themes": ["échecs", "génie", "addiction", "solitude", "émancipation"]
+	},
+	{
+		"title": "Le Majordome",
+		"format": "movie",
+		"director": "Lee Daniels",
+		"releasePeriod": "2013",
+		"platform": "Cinéma",
+		"themes": ["racisme", "histoire américaine", "famille", "politique", "droits civiques"]
+	},
+	{
+		"title": "Le Seigneur des anneaux",
+		"format": "movie",
+		"director": "Peter Jackson",
+		"releasePeriod": "2001–2003",
+		"platform": "Cinéma",
+		"themes": ["quête", "amitié", "fantasy", "courage", "bien contre le mal"]
+	},
+	{
+		"title": "Le Théorème de Marguerite",
+		"format": "movie",
+		"director": "Anna Novion",
+		"releasePeriod": "2023",
+		"platform": "Cinéma",
+		"themes": ["mathématiques", "génie", "pression académique", "identité", "émancipation"]
+	},
+	{
+		"title": "Les Chroniques de San Francisco",
+		"format": "series",
+		"director": "Alan Poul",
+		"releasePeriod": "2019",
+		"platform": "Netflix",
+		"themes": ["LGBTQ+", "famille", "identité", "communauté", "vie urbaine"]
+	},
+	{
+		"title": "Les Deux Papes",
+		"format": "movie",
+		"director": "Fernando Meirelles",
+		"releasePeriod": "2019",
+		"platform": "Netflix",
+		"themes": ["religion", "dialogue", "foi", "politique", "humanité"]
+	},
+	{
+		"title": "Ma voisine danoise",
+		"format": "series",
+		"director": "Karoline Lyngbye",
+		"releasePeriod": "2022",
+		"platform": "TV",
+		"themes": ["sexualité", "adolescence", "amitié", "découverte de soi"]
+	},
+	{
+		"title": "Requiem for a Dream",
+		"format": "movie",
+		"director": "Darren Aronofsky",
+		"releasePeriod": "2000",
+		"platform": "Cinéma",
+		"themes": ["addiction", "solitude", "rêves brisés", "drogue", "destruction"]
+	},
+	{
+		"title": "Sex Education",
+		"format": "series",
+		"director": "Laurie Nunn",
+		"releasePeriod": "2019–2023",
+		"platform": "Netflix",
+		"themes": ["sexualité", "adolescence", "identité", "relations", "tolérance"]
+	},
+	{
+		"title": "Stranger Things",
+		"format": "series",
+		"director": "Matt Duffer et Ross Duffer",
+		"releasePeriod": "2016–2025",
+		"platform": "Netflix",
+		"themes": ["amitié", "fantastique", "adolescence", "science-fiction", "nostalgie"]
+	},
+	{
+		"title": "The Imitation Game",
+		"format": "movie",
+		"director": "Morten Tyldum",
+		"releasePeriod": "2014",
+		"platform": "Cinéma",
+		"themes": [
+			"cryptographie",
+			"génie",
+			"seconde guerre mondiale",
+			"différence",
+			"homosexualité"
+		]
+	},
+	{
+		"title": "Un homme d'exception",
+		"format": "movie",
+		"director": "Ron Howard",
+		"releasePeriod": "2001",
+		"platform": "Cinéma",
+		"themes": ["génie", "schizophrénie", "mathématiques", "résilience", "amour"]
+	},
+	{
+		"title": "V pour Vendetta",
+		"format": "movie",
+		"director": "James McTeigue",
+		"releasePeriod": "2005",
+		"platform": "Cinéma",
+		"themes": ["dictature", "liberté", "révolution", "justice", "identité"]
+	},
+	{
+		"title": "Young Royals",
+		"format": "series",
+		"director": "Rojda Sekersöz",
+		"releasePeriod": "2021–2024",
+		"platform": "Netflix",
+		"themes": ["royauté", "amour", "identité sexuelle", "pression sociale", "adolescence"]
+	}
+]

@@ -1,3 +1,9 @@
+export type InterestEntry = {
+	label: string;
+	emoji: string;
+	url?: string;
+};
+
 export const interests = [
 	{
 		label: 'Loisirs',
@@ -16,7 +22,8 @@ export const interests = [
 			},
 			{
 				label: 'Cinéma',
-				emoji: '🎬'
+				emoji: '🎬',
+				url: '/mes-films-et-series'
 			}
 		]
 	},

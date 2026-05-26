@@ -1,7 +1,8 @@
 <script lang="ts">
 	import LinkIcon from '$lib/components/LinkIcon.svelte';
+	import Title from '$lib/components/Title.svelte';
 	import { experiences } from '$lib/data/experiences';
-	import { interests } from '$lib/data/interests';
+	import { interests, type InterestEntry } from '$lib/data/interests';
 	import { furtherProjects, projects } from '$lib/data/projects';
 	import { talks } from '$lib/data/talks';
 	import Email from '$lib/icons/Email.svelte';
@@ -12,10 +13,7 @@
 	let seeMore = $state(false);
 </script>
 
-<h1 class="mt-16 mb-4 text-center">
-	<span class="queer">🦩</span>
-	Maxime Dupont 🦩
-</h1>
+<Title emoji="🦩">Maxime Dupont</Title>
 
 <p class="mb-16 text-center">full-stack · écologie · accessibilité · craft</p>
 
@@ -103,7 +101,7 @@
 	{#each talks as talk}
 		<li>
 			<div class="flex items-center justify-between pl-12 -indent-12">
-				<div class="leading-[22px]">
+				<div class="leading-5.5">
 					{talk.year} - {talk.title} <i class="whitespace-nowrap">{talk.event}</i>
 				</div>
 				<div class="flex shrink-0 gap-1.5">
@@ -118,14 +116,21 @@
 
 <h2 class="my-8 font-semibold">Centres d'intérêt</h2>
 
+{#snippet interestLabel(entry: InterestEntry)}
+	<span aria-hidden="true">{entry.emoji}</span> {entry.label}
+{/snippet}
+
 <ul>
 	{#each interests as interest}
 		<li>
 			<strong class="font-semibold">{interest.label}</strong><br />
 			{#each interest.entries as entry, index}
 				{#if index},&nbsp;
-				{/if}<span aria-hidden="true">{entry.emoji}</span>
-				{entry.label}
+				{/if}{#if entry.url}
+					<a href={entry.url}>{@render interestLabel(entry)}</a>
+				{:else}
+					{@render interestLabel(entry)}
+				{/if}
 			{/each}
 		</li>
 	{/each}
@@ -155,11 +160,6 @@
 </ul>
 
 <style>
-	.queer {
-		display: inline-block;
-		transform: scale(-1, 1);
-	}
-
 	.contact .flex {
 		display: inline-flex;
 		align-items: center;
