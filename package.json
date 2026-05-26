@@ -14,7 +14,8 @@
 		"lint": "eslint .",
 		"test:unit": "vitest",
 		"test": "npm run test:unit -- --run && npm run test:e2e",
-		"test:e2e": "playwright test"
+		"test:e2e": "playwright test",
+		"slides:pdf": "pnpm build && node scripts/export-slides.mjs"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
