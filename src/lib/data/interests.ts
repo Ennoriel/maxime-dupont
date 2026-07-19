@@ -32,7 +32,8 @@ export const interests = [
 		entries: [
 			{
 				label: 'Randonnée',
-				emoji: '🚶‍♂️'
+				emoji: '🚶‍♂️',
+				url: '/hobbies/mes-randonnees/gr10'
 			},
 			{
 				label: 'Camping',
