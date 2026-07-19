@@ -291,5 +291,21 @@
 		"releasePeriod": "2021–2024",
 		"platform": "Netflix",
 		"themes": ["royauté", "amour", "identité sexuelle", "pression sociale", "adolescence"]
+	},
+	{
+		"title": "Les Deux Papes",
+		"format": "movie",
+		"director": "Fernando Meirelles",
+		"releasePeriod": "2019",
+		"platform": "Netflix",
+		"themes": ["religion", "dialogue", "foi", "changement", "tradition", "réconciliation"]
+	},
+	{
+		"title": "Conclave",
+		"format": "movie",
+		"director": "Edward Berger",
+		"releasePeriod": "2024",
+		"platform": "Cinéma",
+		"themes": ["religion", "politique", "pouvoir", "secret", "ambition", "éthique"]
 	}
 ]

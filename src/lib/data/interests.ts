@@ -23,7 +23,7 @@ export const interests = [
 			{
 				label: 'Cinéma',
 				emoji: '🎬',
-				url: '/mes-films-et-series'
+				url: '/hobbies/mes-films-et-series'
 			}
 		]
 	},
