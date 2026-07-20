@@ -77,9 +77,9 @@ export const steps = [
 			nom: 'Gite Le Regain',
 			telephone: '0562929267 / 0688906538',
 			date: 'mercredi 5 aout',
-			formule: '',
-			réservé: 'message laissé',
-			note: 'le refuge est entre les deux étapes / message laissé'
+			formule: 'demi-pension',
+			réservé: 'OK',
+			note: 'à reconfirmer la veille !!'
 		}
 	},
 	{
@@ -92,11 +92,11 @@ export const steps = [
 		denivele_positif: '+926m',
 		gpx: ['02-03-de-sazos-a-bareges.gpx'],
 		logement: {
-			nom: "Gîte d'étape l'Oasis",
-			telephone: '0562926947',
+			nom: "Hotel Les Castets d'Ayré",
+			telephone: '0562926817',
 			date: 'jeudi 6 aout',
-			formule: '',
-			réservé: 'contacté par le site internet',
+			formule: 'demi pension + pique nique',
+			réservé: 'réservé et payé',
 			note: ''
 		}
 	},
@@ -110,12 +110,12 @@ export const steps = [
 		denivele_positif: '+1332m',
 		gpx: ['02-04-de-bareges-au-lac-doredon.gpx'],
 		logement: {
-			nom: "Refuge du lac de l'Oule",
+			nom: "Refuge de l'Oule",
 			telephone: '0562984862 / 0681389288',
-			date: 'jeudi 6 aout',
-			formule: '',
-			réservé: 'à contacter',
-			note: 'à décaler au vendredi ?'
+			date: 'vendredi 7 aout',
+			formule: 'demi pension + pique nique',
+			réservé: 'réservé',
+			note: ''
 		}
 	},
 	{
